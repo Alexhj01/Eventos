@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventos Online</title>
+</head>
+
+<body class="bg-gray-200">
+  <!-- Encabezado de la aplicacion -->
+  <div id="header"></div>
+
+  <!-- Contenedor de filas -->
+  <div class="p-4 container">
+
+    <div><h1 class="text-center mainLocation2">Selecciona sus lugares</h1></div>
+
+    <!-- Primera fila -->
+    <div class="fila-1">
+      <div class="asiento">1A</div>
+      <div class="asiento reservado">2A</div>
+      <div class="asiento reservado">3A</div>
+      <div class="asiento">4A</div>
+      <div class="asiento">5A</div>
+      <div class="asiento">6A</div>
+    </div>
+
+    <!-- Segunda fila -->
+    <div class="fila">
+      <div class="asiento">1B</div>
+      <div class="asiento seleccionado">2B</div>
+      <div class="asiento seleccionado">3B</div>
+      <div class="asiento seleccionado">4B</div>
+      <div class="asiento">5B</div>
+      <div class="asiento">6B</div>
+      <div class="asiento">7B</div>
+    </div>
+
+    <!-- Tercera fila -->
+    <div class="fila">
+      <div class="asiento">1C</div>
+      <div class="asiento reservado">2C</div>
+      <div class="asiento">3C</div>
+      <div class="asiento">4C</div>
+      <div class="asiento">5C</div>
+      <div class="asiento">6C</div>
+      <div class="asiento">7C</div>
+    </div>
+
+    <!-- Cuarta fila -->
+    <div class="fila">
+      <div class="asiento">1D</div>
+      <div class="asiento">2D</div>
+      <div class="asiento">3D</div>
+      <div class="asiento">4D</div>
+      <div class="asiento reservado">5D</div>
+      <div class="asiento reservado">6D</div>
+      <div class="asiento">7D</div>
+    </div>
+
+    <!-- Quinta fila -->
+    <div class="fila">
+      <div class="asiento">1E</div>
+      <div class="asiento">2E</div>
+      <div class="asiento">3E</div>
+      <div class="asiento reservado">4E</div>
+      <div class="asiento">5E</div>
+      <div class="asiento">6E</div>
+      <div class="asiento">7E</div>
+    </div>
+
+    <!-- Sexta fila -->
+    <div class="fila">
+      <div class="asiento reservado">1F</div>
+      <div class="asiento">2F</div>
+      <div class="asiento">3F</div>
+      <div class="asiento reservado">4F</div>
+      <div class="asiento">5F</div>
+      <div class="asiento">6F</div>
+      <div class="asiento">7F</div>
+    </div>
+
+    <!-- Séptima fila -->
+    <div class="fila">
+      <div class="asiento">1G</div>
+      <div class="asiento">2G</div>
+      <div class="asiento">3G</div>
+      <div class="asiento">4G</div>
+      <div class="asiento">5G</div>
+      <div class="asiento">6G</div>
+      <div class="asiento reservado">7G</div>
+    </div>
+  </div>
+
+
+  <!-- Contenido de la aplicacion -->
+  <main>
+
+    <!-- Parte lateral -->
+    <div class="mainLocation">
+      <div class="indicadores">
+
+        <h1 class="indicador"><span class="w-4 h-4 rounded ind bg-red-600 inline-flex"></span> Selecionado</h1>
+
+        <h1 class="indicador"><span class="w-4 h-4 rounded ind bg-blue-700 inline-flex"></span> Reservado</h1>
+
+
+        <h1 class="indicador"><span class="w-4 h-4 rounded ind bg-gray-100 inline-flex"></span> Disponible</h1>
+      </div>
+
+      <div class="mainLocation2">
+        <h1>Detalles del evento</h1>
+      </div>
+
+      <div class="mainLocation3">
+        <div class="info">
+          <h1>Concierto</h1>
+          <h1>Florida - USA</h1>
+          <h1>Cras Building</h1>
+        </div>
+        <div>
+          <h1 class="det">El evento tendra lugar en el Belson Stadium, ubicado en Utopia Parkway, ciudad de New York. Proximamente
+            tickets a la venta aqui, en nuestra pagina ofical de Eventos.</h1>
+            <a class="tik" href=""><h1>Comprar boleto</h1></a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="barra"></div>
+
+  <script type="module" src="/src/js/main.js"></script>
+
+</body>
+
+</html>
