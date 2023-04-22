@@ -13,9 +13,9 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         detalles: resolve(_dirname, 'detalles.html'),
-        informacion: resolve(_dirname,'informaion.html'),
-        location: resolve(_dirname, 'locations.html')
-        timeline: resolve(_dirname, 'timeline.html')
+        informacion: resolve(__dirname,'informaion.html'),
+        location: resolve(__dirname, 'locations.html'),
+        timeline: resolve(__dirname, 'timeline.html'),
       }
     }
   },
